@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Bike App</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .hidden { display: none; }
+    .button { padding: 10px 15px; margin: 5px; cursor: pointer; }
+    .admin-panel, .user-panel { margin: 20px 0; }
+    input { margin: 5px 0; padding: 5px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+    .favorite { color: red; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Rental Bike App</h1>
+
+  <div id="login-form">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button id="login-btn" class="button">Login</button>
+  </div>
+
+  <div id="admin-panel" class="admin-panel hidden">
+    <h2>Admin Panel</h2>
+    <form id="bike-form">
+      <input type="text" id="bike-name" placeholder="Bike Name" required>
+      <input type="number" id="bike-price" placeholder="Price" required>
+      <input type="checkbox" id="bike-available"> Available
+      <button id="add-bike" class="button">Add Bike</button>
+    </form>
+    <h3>Manage Bikes</h3>
+    <table id="bike-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Available</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div id="user-panel" class="user-panel hidden">
+    <h2>User Panel</h2>
+    <h3>Available Bikes</h3>
+    <table id="user-bike-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Available</th>
+          <th>Favorites</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

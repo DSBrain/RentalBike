@@ -1,0 +1,172 @@
+{
+  "bikes": [
+    {
+      "id": "1",
+      "name": "Mountain Bike",
+      "price": 15,
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Road Bike",
+      "price": 20,
+      "available": true
+    },
+    {
+      "id": "40f5",
+      "name": "turbo bike",
+      "price": 20,
+      "available": true
+    }
+  ],
+  "favorites": [
+    {
+      "bike_id": 1,
+      "user_ids": [
+        2,
+        "2"
+      ],
+      "id": "8f47"
+    },
+    {
+      "bike_id": 2,
+      "user_ids": [],
+      "id": "8e41"
+    },
+    {
+      "id": "6fyy",
+      "bike_id": null,
+      "user_ids": []
+    },
+    {
+      "id": "e8os",
+      "bike_id": null,
+      "user_ids": [
+        "3857"
+      ]
+    },
+    {
+      "id": "oyf7",
+      "bike_id": null,
+      "user_ids": [
+        "3857"
+      ]
+    },
+    {
+      "id": "n6yr",
+      "bike_id": null,
+      "user_ids": [
+        "3857"
+      ]
+    },
+    {
+      "id": "m7pq",
+      "bike_id": null,
+      "user_ids": [
+        "3857"
+      ]
+    },
+    {
+      "id": "caej",
+      "bike_id": null,
+      "user_ids": [
+        "3857"
+      ]
+    },
+    {
+      "id": "fqpi",
+      "bike_id": null,
+      "user_ids": [
+        "3857"
+      ]
+    },
+    {
+      "id": "cup0",
+      "bike_id": null,
+      "user_ids": []
+    },
+    {
+      "id": "94q7",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "l9rv",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "y4ow",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "i18e",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "dq4u",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "78fn",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "t6yw",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "3sxy",
+      "bike_id": null,
+      "user_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "e200",
+      "bike_id": "40f5",
+      "user_ids": [
+        "2"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "3857",
+      "username": "user1",
+      "password": "1234",
+      "role": "user"
+    }
+  ]
+}
