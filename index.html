@@ -5,13 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rental Bike App</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
+    body { font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;}
     .hidden { display: none; }
     .button { padding: 10px 15px; margin: 5px; cursor: pointer; }
     .admin-panel, .user-panel { margin: 20px 0; }
     input { margin: 5px 0; padding: 5px; }
-    table { width: 100%; border-collapse: collapse; }
-    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+
+    table {     width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+    tr:hover {
+    background-color: #f1f1f1;
+  } 
+  thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 10px;
+    }
+  }
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+  }
     .favorite { color: red; cursor: pointer; }
   </style>
 </head>
